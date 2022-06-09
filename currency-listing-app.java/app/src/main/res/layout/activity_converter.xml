@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03071e"
+    tools:context="coinapp.example.coinapp.converter">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:onClick="gotoPage"
+            android:id="@+id/currencyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a currency"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#1070E0"/>
+
+        <Spinner
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/currenyChooser"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:prompt="@string/app_name"
+            android:background="#1070E0"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/unitText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="Unit Count"
+                android:textSize="17dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:id="@+id/returnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Return (USD $)"
+                android:textColor="#1070E0"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/textBox1"
+                android:hint="How many?"
+                android:text="1"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="7"
+                android:inputType="number"
+                android:gravity="center_horizontal" />
+
+            <ImageView
+                android:onClick="change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/changeicon"
+                android:minHeight="50dp"
+                android:minWidth="50dp"
+                />
+
+            <EditText
+                android:id="@+id/textBox2"
+                android:hint="How much?"
+                android:textColorHint="#1070E0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="7"
+                android:inputType="number"
+                android:gravity="center_horizontal"
+                android:textColor="#1070E0"
+                android:enabled="false" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/calculator"
+            android:onClick="calc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Change"
+            android:textColor="#FFF"
+            android:background="#1070E0"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

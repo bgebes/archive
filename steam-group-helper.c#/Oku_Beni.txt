@@ -1,0 +1,28 @@
+Steam Announcement Helper 1.8.0.0
+
+Kullaným Kýlavuzu
+-------------------------------------------------
+1-Öncelikle Kaç Tane Grup Yöneteceðinizi Seçiniz.
+2-Eðer tek bir grubu yönetiyorsanýz ve çekiliþi yapmadýysanýz link girmeden baþla deyip çekiliþi yapabilirsiniz.
+3-Eðer tek bir grubu yönetiyorsanýz ve çekiliþi yapdýysanýz çekiliþ link girip istediðiniz iþlemleri yapabilirsiniz.
+4-Çekiliþ Katýlýmcýlarý'ný almak için ana ekrandan 2'yi seçip sað üstteki "USERS" adlý butona týklayabilirsiniz.
+5-Katýlýmcýlar'ý alýrken yapmanýz gerekenler: 
+a)Hangi Grubdaki Çekiliþin Katýlýmcýlarýný Alýcaksanýz O Grubun Seçeneðini Seçip " GO " adlý butona basýn.
+b)Yukarýdaki Yorum Sayýsý Adlý Boþ Yazý Yazma Alanýna Duyurudaki Yorum Sayýsýný Yazýnýz Ve Enter'a Basýnýz.
+
+UYARILAR !!!
+
+1-Katýlýmcýlar Alýnýrken Bazý Hatalar Çýkabilir!Katýlýmcýlar Bölümümüz "Beta" Sürümündedir.
+2-Programý Masaüstüne Atmak Ýçin Kýsayol Oluþturun. Klasör Ýçerisindeki Dll dosyalarýný kullanýyor.
+3-Aþaðýdaki duyurularýn metni "text" klasörü içerisindeki metin belgelerinden düzenlenebilir:
+a)Çekiliþ Açýklama Metni
+b)Sonuç Açýklama Metni
+c)Ýlk Davet Açýklama Metni
+d)Katýlým Sonlandý Açýklama Metni
+-----------------------------------------------------------------------------------------------------------------------
+Not : Çekiliþlerin yapýldýðý gruplar kapatýlmýþtýr. Bu yüzden bu program artýk çalýþmýyor.
+Bu programý tekrar çalýþtýrmanýn tek yolu : Aþaðýdaki linkleri verilmiþ gruplara girip , moderatör veya yönetici olmak.
+-----------------------------------------------------------------------------------------------------------------------
+Team Turkman › https://steamcommunity.com/groups/Teamturkmen
+Cobe Prospectus › https://steamcommunity.com/groups/cobeprospectus
+------------------------------------------------------------------
